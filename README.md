@@ -6,6 +6,10 @@
 ## 使用说明
 这个笔记是根据李宏毅老师线性代数视频的一个辅助资料，本笔记基本上完全复刻李老师课堂上讲的所有内容，并加入了一些和相关的学习补充资料和参考资料，结合这些资料一起学习，相信你会对线性代数有更加深刻的理解，为以后学习李宏毅老师的机器学习课程打下了基础。
 
+李宏毅《机器学习》：https://github.com/datawhalechina/leeml-notes
+
+李宏毅《线性代数》：https://github.com/datawhalechina/leela-notes
+
 ## 笔记在线阅读地址
 在线阅读地址：https://datawhalechina.github.io/leela-notes/#/
 ## 课程在线观看地址
