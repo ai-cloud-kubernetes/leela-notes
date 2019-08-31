@@ -1,5 +1,5 @@
 - 目录
- - [P1学习目标](chapter1/chapter1.md)
+ - [ P1学习目标](chapter1/chapter1.md)
  - [P2线性方程组](chapter2/chapter2.md)
  - [P3向量](chapter3/chapter3.md)
  - [P4矩阵](chapter4/chapter4.md)
