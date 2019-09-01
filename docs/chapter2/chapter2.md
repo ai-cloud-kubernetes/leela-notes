@@ -36,7 +36,7 @@ f可能出现的output所成的集合。值域(Range)意思是说：function 真
 同学们比较困惑点是：Co-domain跟Range有什么样的不同，所先值域比对应域还要小，值域一定是被对应域包含在里面。
 
 
-举例来说：有一个很简单的function(`$y=x^2$`)，它的定义域是R(real number)，对应域是：你不假思索的觉得这个output是什么，不要分析这个function的内涵。`$y=x^2$`的输入是实数(real number)，输出y显然也一定是实数(real number)。但是你仔细思考了这个function的内涵以后，会发现`$y=x^2$`中y一定大于等于0，那么值域其实只包含了0跟所有的正数，所以值域是比所有的real number还要小(positive real number, 0)。
+举例来说：有一个很简单的function($y=x^2$)，它的定义域是R(real number)，对应域是：你不假思索的觉得这个output是什么，不要分析这个function的内涵。$y=x^2$的输入是实数(real number)，输出y显然也一定是实数(real number)。但是你仔细思考了这个function的内涵以后，会发现$y=x^2$中y一定大于等于0，那么值域其实只包含了0跟所有的正数，所以值域是比所有的real number还要小(positive real number, 0)。
 
 
 ### 一对一
@@ -58,7 +58,7 @@ one-to-one(一对一)的意思是：现在所有在domain里面的variable丢到
 ![](res/chapter2-6.png)
 
 
-Linear System有两个properties，第一个properties：一个function有一个input x 一个output y，一个linear System的意思是：我们如果把输入乘以k倍，输出也会乘以k倍。第二个properties：如果我们输入`$x_1$`输出`$y_1$`，输入`$x_2$`输出`$y_2$`，那输出`$x_1+x_2$`输出是`$y_1+y_2$
+Linear System有两个properties，第一个properties：一个function有一个input x 一个output y，一个linear System的意思是：我们如果把输入乘以k倍，输出也会乘以k倍。第二个properties：如果我们输入$x_1$输出$y_1$，输入$x_2$输出$y_2$，那输出$x_1+x_2$输出是$y_1+y_2$
 
 ![](res/chapter2-7.png)
 
@@ -66,9 +66,9 @@ Linear System有两个properties，第一个properties：一个function有一个
 在讲Linear System之前，为了要知道大家是不是真的了解linear Systme的概念，因为很多人对Linear System的想象就是有一个条直线是斜的就叫做linear System，其实不是这样的。现在举两个function看是不是linear Systme。
 
 
-输入一个function f，Derivative可以吃另外一个function当做input(Derivative是一个function)，会输出另外一个function f'(输入function f的微分)。会做微分(Derivative)的function是不是linear System，接下来举一个更加具体的例子。假设输入的function是`$x^2$`，输出的function是输入function做微分的结果`$2x$`。输入是一个曲线，输出是一条直线，显然要把曲线压成直线显然是一个很复杂的process，但它是linear System(微分感觉很复杂，但它确实是线性系统)。
+输入一个function f，Derivative可以吃另外一个function当做input(Derivative是一个function)，会输出另外一个function f'(输入function f的微分)。会做微分(Derivative)的function是不是linear System，接下来举一个更加具体的例子。假设输入的function是$x^2$，输出的function是输入function做微分的结果$2x$。输入是一个曲线，输出是一条直线，显然要把曲线压成直线显然是一个很复杂的process，但它是linear System(微分感觉很复杂，但它确实是线性系统)。
 
-有一个function的工作是做积分，然后吃一个function当做输入，会输出一个数值(把输入的function f从a积分到b得到一个数值，这个数值是这个会做积分function的输出)。假设输入是`$x^2$`，输出是把function f从a积分到b(`$\frac{1}{3}(b^3-a^3)$`)，积分这件事情也是也是线性的。
+有一个function的工作是做积分，然后吃一个function当做输入，会输出一个数值(把输入的function f从a积分到b得到一个数值，这个数值是这个会做积分function的输出)。假设输入是$x^2$，输出是把function f从a积分到b($\frac{1}{3}(b^3-a^3)$)，积分这件事情也是也是线性的。
 
 ## 线性系统和线性方程组
  
@@ -88,9 +88,9 @@ Linear System有两个properties，第一个properties：一个function有一个
 
 这篇投影片要讲的是一个linear System一定可以写成System of linear equations，接下来假设你知道咋样分析System of linear equations，你就知道咋样分析linear system。接下来你要说明一个linear system为什么对应有一个System of linear equations。
 
-现在有一个linear system(黑盒子)，对linear system输入一个standard vector(1,0,...0)，这个向量只有第一维是1其它维度都是0，它给出一组输出`$a_{11},a_{21},...a_{n1}$`。输入另外一组向量(0,1,...0)，会产生`$a_{12},a_{22},...,a_{m2}$`，直到输入一组向量(0,0, ...1)，产生`$a_{1n},a_{2n},...,a_{mn}$`。假设输入了n个standard vector以后，就可以得到n个输出。
+现在有一个linear system(黑盒子)，对linear system输入一个standard vector(1,0,...0)，这个向量只有第一维是1其它维度都是0，它给出一组输出$a_{11},a_{21},...a_{n1}$。输入另外一组向量(0,1,...0)，会产生$a_{12},a_{22},...,a_{m2}$，直到输入一组向量(0,0, ...1)，产生$a_{1n},a_{2n},...,a_{mn}$。假设输入了n个standard vector以后，就可以得到n个输出。
 
-根据线性系统的特性，如果你把输入乘以k倍，输出就会乘以k倍。所以现在给输入乘以`$x_1$`倍，输出也直接乘以`$x_1$`倍。本来输入(1,0,...0)，输出`$a_{11},a_{21},...,a_{m1}$`，输入输出都乘以`$x_1$`后，输入变为`$x_1,0,...0$`，输出变为`$a_{11}x_1,a_{21}x_1,...,a_{m1}x_1$`，这是线性系统的第一个特性(input乘以k倍，output乘以k被)。如果将线性系统的输入通通加起来会等于输出加起来，也就是：(`$x_1,0,..0$`)，(`$x_2,0,..0$`)，一直到(`$0,0,...x_n$`)加起来，得到的向量是(`$x_1,x_2,...x_n$`)，输出应该是原来没有相加式子的总和。假设输出第一维是`$b_1$`，第二维是`$b_2$`，第m维是`$b_m$`。我们又知道第一维的输出是(`$a_{11}x_1+a_{12}x_2+...+a_{1n}x_n$`)，等于`$b_1$`。第二维的输出是(`$a_{21}x_1+a_{22}x_2+...+a_{2n}x_n$`，等于`$b_2$`。所以它其实是一个System of linear equations。
+根据线性系统的特性，如果你把输入乘以k倍，输出就会乘以k倍。所以现在给输入乘以$x_1$倍，输出也直接乘以$x_1$倍。本来输入(1,0,...0)，输出$a_{11},a_{21},...,a_{m1}$，输入输出都乘以$x_1$后，输入变为$x_1,0,...0$，输出变为$a_{11}x_1,a_{21}x_1,...,a_{m1}x_1$，这是线性系统的第一个特性(input乘以k倍，output乘以k被)。如果将线性系统的输入通通加起来会等于输出加起来，也就是：($x_1,0,..0$)，($x_2,0,..0$)，一直到($0,0,...x_n$)加起来，得到的向量是($x_1,x_2,...x_n$)，输出应该是原来没有相加式子的总和。假设输出第一维是$b_1$，第二维是$b_2$，第m维是$b_m$。我们又知道第一维的输出是($a_{11}x_1+a_{12}x_2+...+a_{1n}x_n$)，等于$b_1$。第二维的输出是($a_{21}x_1+a_{22}x_2+...+a_{2n}x_n$，等于$b_2$。所以它其实是一个System of linear equations。
 
 
 今天投影片学到的是：linear system一定可以System of linear equations，之后在分析System of linear equations时，就是在分析的是linear system。
